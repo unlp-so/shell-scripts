@@ -22,3 +22,14 @@ borrar() {
 
 imprimir uno dos tres
 borrar
+
+# Las funciones también tienen sus propios valores de retorno, que funcionan tal
+# como el exit status de los scripts, solo que no cortan la ejecución del script
+# entero, sino que solo terminan la función:
+
+function error {
+  return 5
+}
+
+error
+echo "error devolvió un código de salida $?"
