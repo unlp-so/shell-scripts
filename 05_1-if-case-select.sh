@@ -63,22 +63,45 @@ esac
 # el siguiente?
 
 sabor=chocolate
-echo "¿Qué opinás del helado sabor $sabor?"
+echo "- ¿Qué opinás del helado sabor $sabor?"
 case $sabor in
   *)
-    echo "puajjj"
+    echo "- puajjj"
     ;;
   chocolate)
-    echo "rico!"
+    echo "- rico!"
     ;;
   vainilla)
-    echo "pasable"
+    echo "- pasable"
     ;;
   "dulce de leche")
-    echo "lo más"
-    echo "en serio. ¿Y lo probaste granizado?"
+    echo "- lo más"
+    echo "  en serio. ¿Y lo probaste granizado?"
     ;;
 esac
+
+# Otra forma más interactiva del ejemplo anterior puede ser pedir al usuario
+# que ingrese por teclado el sabor. Para esto utilizamos el comando `read`:
+
+echo "Ingresá un sabor de helado: "
+read sabor
+echo "- ¿Qué opinás del helado sabor $sabor?"
+case $sabor in
+  chocolate)
+    echo "- rico!"
+    ;;
+  vainilla)
+    echo "- pasable"
+    ;;
+  "dulce de leche")
+    echo "- lo más."
+    echo "  en serio. ¿Y lo probaste granizado?"
+    ;;
+  *)
+    echo "- puajjj"
+    ;;
+esac
+
 
 # El comando select presenta al usuario un conjunto de opciones una para que elija
 # una y nos devuelve en una variable la opción elegida:
