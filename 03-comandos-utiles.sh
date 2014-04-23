@@ -18,6 +18,8 @@
 #   - gzip
 #   - ls
 #   - find
+#   - let
+#   - expr
 #
 # Para ver la documentación de cualquiera de estos comandos, ejecutar
 #

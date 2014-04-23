@@ -6,6 +6,7 @@
 #   - $1 a $9 son los parámetros en el orden que se los recibió, del primero al
 #     noveno
 #   - $* son todos los parámetros que recibió el script
+#   - $# es la cantidad de parámetros que recibió el script
 
 echo "Este script fue invocado como: $0"
 echo "El primer parámetro recibido fue: $1"
@@ -18,6 +19,7 @@ echo "El séptimo parámetro recibido fue: $7"
 echo "El octavo parámetro recibido fue: $8"
 echo "El noveno parámetro recibido fue: $9"
 echo "Todos los parámetros recibidos fueron: $*"
+echo "El script recibió $# parámetros"
 
 # Podemos probar ejecutar este mismo script pasando distintos parámetros y ver
 # qué pasa. Por ejemplo:
