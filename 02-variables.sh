@@ -34,3 +34,8 @@ echo "numerica => $numerica"
 # Con comillas simples no se realiza interpolación alguna:
 
 echo 'MI_VARIABLE => $MI_VARIABLE'
+
+# Los valores de la variable se pueden acceder, opcionalmente, delimitando con
+# llaves ("{}") el nombre de la variable:
+
+echo ${MI_VARIABLE}
