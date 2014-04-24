@@ -24,6 +24,7 @@ echo "El script recibió $# parámetros"
 # Podemos probar ejecutar este mismo script pasando distintos parámetros y ver
 # qué pasa. Por ejemplo:
 #
-# ./03-parametros.sh parametro 1 parametro 2
-# ./03-parametros.sh "parametro 1" "parametro 2"
-# ./03-parametros.sh uno dos tres cuatro cinco 6 siete ocho nueve 10 11 12 13
+# ./02a-parametros.sh parametro 1 parametro 2
+# ./02a-parametros.sh "parametro 1" "parametro 2"
+# ./02a-parametros.sh uno dos tres cuatro cinco 6 siete ocho nueve 10 11 12 13
+# bash 02a-parametros.sh
