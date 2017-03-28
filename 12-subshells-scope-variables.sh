@@ -12,4 +12,4 @@ function f1()
 f1
 f1 | f1 | f1
 
-echo "at end, i=$i"
+echo "at the end, i=$i"
