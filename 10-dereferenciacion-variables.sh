@@ -1,5 +1,5 @@
 for i in `seq 1 2`; do
-	eval echo "El valor del parametro $1 es: " \$$i
+	eval echo "El valor del parametro $i es: " \$$i
 done
 
 uno="Valor de variable 'uno'"
