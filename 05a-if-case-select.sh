@@ -38,7 +38,7 @@ fi
 
 # La selección es con el comando `case`. Notar que cada caso es delimitado por
 # dos puntos y coma (";;"), y que el último caso presentado funciona como
-# un comodín (o "wildcard"), es ecir, cualquier opción coincidirá.
+# un comodín (o "wildcard"), es decir, cualquier opción coincidirá.
 
 sabor=pistacho
 echo "¿Qué opinás del helado sabor $sabor?"
@@ -103,7 +103,7 @@ case $sabor in
 esac
 
 
-# El comando select presenta al usuario un conjunto de opciones una para que elija
+# El comando select presenta al usuario un conjunto de opciones para que elija
 # una y nos devuelve en una variable la opción elegida:
 
 echo "¿Querés saber qué opino de los sabores de helado? Elegí algunos"
